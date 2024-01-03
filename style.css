@@ -22,6 +22,7 @@ header{
     position: fixed;
     z-index: 999;
     text-align: center;
+    font-family: Lisu_Bosa;
 }
 
 #gotas {
@@ -115,6 +116,7 @@ section{
    border-radius: 5px;
    width: 20%;
    display: inline-block;
+   font-family: Lisu_Bosa;
 }
 
 .card_Cima:hover{
@@ -142,6 +144,7 @@ section{
     background-color: #008075;
     padding: 5rem;
     display: inline-block;
+    font-family: Lisu_Bosa;
 }
 
 .button-1 {
@@ -161,7 +164,6 @@ section{
   height: 50px;
   letter-spacing: normal;
   line-height: 1.5;
-  outline: none;
   overflow: hidden;
   padding: 14px 25px;
   position: relative;
@@ -174,6 +176,7 @@ section{
   touch-action: manipulation;
   vertical-align:middle;
   white-space: nowrap;
+  font-family: Lisu_Bosa;
 }
 
 .button-1:active {
