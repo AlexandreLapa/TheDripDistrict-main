@@ -108,7 +108,7 @@ section{
 }
 
 .card_Cima {
-   margin: 2em 1em;
+   margin: 3em 1em;
    background-color: #008075;
    color: #fff;
    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
@@ -116,6 +116,7 @@ section{
    border-radius: 5px;
    width: 20%;
    display: inline-block;
+   text-align: right;
    font-family: Lisu_Bosa;
 }
 
@@ -140,9 +141,10 @@ section{
 
 .card_conteiner{
     width: 100%;
+    height: 80%;
     color: white;
     background-color: #008075;
-    padding: 5rem;
+    padding: 3rem;
     display: inline-block;
     font-family: Lisu_Bosa;
 }
@@ -158,24 +160,14 @@ section{
   color: #008075;
   cursor: pointer;
   display: inline-block;
-  font-family: Inter,-apple-system,system-ui,"Segoe UI",Helvetica,Arial,sans-serif;
   font-size: 14px;
   font-weight: 400;
   height: 50px;
-  letter-spacing: normal;
   line-height: 1.5;
-  overflow: hidden;
   padding: 14px 25px;
   position: relative;
   text-align: center;
   text-decoration: none;
-  transform: translate3d(0, 0, 0);
-  transition: all .3s;
-  user-select: none;
-  -webkit-user-select: none;
-  touch-action: manipulation;
-  vertical-align:middle;
-  white-space: nowrap;
   font-family: Lisu_Bosa;
 }
 
@@ -189,3 +181,12 @@ section{
   opacity: 1;
 }
 
+.card_info{
+    width: 100%;
+    height: 80%;
+    color: white;
+    background-color: #008075;
+    padding: 3rem;
+    display: inline-block;
+    font-family: Lisu_Bosa;
+}
